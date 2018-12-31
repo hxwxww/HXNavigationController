@@ -2,7 +2,7 @@
 HXNavigationController仿微信导航栏实现
 
 
- ![image](https://github.com/Wen-hx/HXNavigationController/raw/master/screenshots/screenshot.gif)
+ ![image](https://github.com/hxwxww/HXNavigationController/raw/master/screenshots/screenshot.gif)
 
 
 ## 简单介绍
