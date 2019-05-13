@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0398C6228915D6002958D7 /* BarHiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0398C5228915D6002958D7 /* BarHiddenViewController.swift */; };
 		AA0DFA8F21C89DD100DB8A12 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0DFA8E21C89DD100DB8A12 /* ProfileViewController.swift */; };
 		AA0DFA9121C8D67B00DB8A12 /* HXFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0DFA9021C8D67B00DB8A12 /* HXFakeNavigationBar.swift */; };
 		AA28588321C3496A00EE7B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28588221C3496A00EE7B89 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0398C5228915D6002958D7 /* BarHiddenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarHiddenViewController.swift; sourceTree = "<group>"; };
 		AA0DFA8E21C89DD100DB8A12 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AA0DFA9021C8D67B00DB8A12 /* HXFakeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXFakeNavigationBar.swift; sourceTree = "<group>"; };
 		AA28587F21C3496900EE7B89 /* HXNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				AA28588221C3496A00EE7B89 /* AppDelegate.swift */,
 				AA3C7D1F21C76F4800111564 /* DemoViewController.swift */,
 				AA0DFA8E21C89DD100DB8A12 /* ProfileViewController.swift */,
+				AA0398C5228915D6002958D7 /* BarHiddenViewController.swift */,
 				AA28588621C3496A00EE7B89 /* Main.storyboard */,
 				AA28588921C3496C00EE7B89 /* Assets.xcassets */,
 				AA28588B21C3496C00EE7B89 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0DFA8F21C89DD100DB8A12 /* ProfileViewController.swift in Sources */,
+				AA0398C6228915D6002958D7 /* BarHiddenViewController.swift in Sources */,
 				AA0DFA9121C8D67B00DB8A12 /* HXFakeNavigationBar.swift in Sources */,
 				AA3C7D1A21C7519B00111564 /* UIViewController+HXNavigationBar.swift in Sources */,
 				AA3C7D2021C76F4800111564 /* DemoViewController.swift in Sources */,

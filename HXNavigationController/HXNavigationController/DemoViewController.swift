@@ -14,7 +14,7 @@ class DemoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "首页"
+        title = "首页\(navigationController!.viewControllers.count % 2)"
         if navigationController!.viewControllers.count % 2 == 0 {
 //            hx_backgroundColor = .blue
 //            hx_tintColor = .white
@@ -25,6 +25,26 @@ class DemoViewController: UIViewController {
             hx_titleColor = .red
             hx_barStyle = .default
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear: \(title!)")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear: \(title!)")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("viewWillDisappear: \(title!)")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("viewDidDisappear: \(title!)")
     }
     
     @IBAction func barColorBtnClicked(_ sender: UIButton) {

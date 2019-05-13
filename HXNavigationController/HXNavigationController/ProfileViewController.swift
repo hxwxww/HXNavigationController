@@ -69,8 +69,8 @@ class ProfileViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let demoVC = storyboard?.instantiateViewController(withIdentifier: "DemoViewController") else { return }
-        navigationController?.pushViewController(demoVC, animated: true)
+        guard let barHiddenVC = storyboard?.instantiateViewController(withIdentifier: "BarHiddenViewController") else { return }
+        navigationController?.pushViewController(barHiddenVC, animated: true)
     }
     
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
